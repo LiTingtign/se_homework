@@ -11,4 +11,5 @@ jobs:
         with:
           java-version: 11
       - name: Test
-        run: cd ${{ github.workspace }}/FileUploadAndDownLoadAndclipboard/src/me/gacl/web/controller&& cat DownloadServletTest.java
+        run: cd ${{ github.workspace }}/FileUploadAndDownLoadAndclipboard/src/me/gacl/web/controller && cat DownloadServletTest.java
+-
