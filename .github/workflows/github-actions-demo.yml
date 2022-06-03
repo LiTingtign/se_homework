@@ -1,7 +1,7 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-   Hotpot-Test:
+ DownloadServlet-Test:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -11,4 +11,4 @@ jobs:
         with:
           java-version: 11
       - name: Test
-        run: cd ${{ github.workspace }}/hw7/src && cat HotSpotStoreTest.java
+        run: cd ${{ github.workspace }}/FileUploadAndDownLoadAndclipboard/src/me/gacl/web/controller&& cat DownloadServletTest.java
